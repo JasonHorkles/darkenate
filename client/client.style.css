@@ -1,0 +1,182 @@
+:root {
+  --border-radii: 10px;
+  --server-list-radii: 8px;
+  --server-list-padding: 1.25rem;
+}
+
+/* Turn off image dragging */
+img {
+  -webkit-user-drag: none;
+}
+
+/* Background */
+
+body.bg-neutral-800, body.bg-neutral-900 {
+  background: #11111c;
+}
+
+
+/* Main header */
+
+div.w-full.bg-neutral-900 {
+  background: #0e0e17;
+}
+
+
+/* Secondary header */
+
+div.SubNavigation-sc-lfuaoi-0.jZPsWO {
+  background-color: #1f2129 !important;
+}
+
+
+/* Login page */
+
+div.LoginFormContainer___StyledDiv-sc-cyh04c-3.cxOtYP {
+  background-color: #1f2033;
+}
+
+label.Label-sc-g780ms-0.dqkKHi {
+  color: lightgray;
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar-thumb {
+  border-width: 0px 0.3rem;
+  box-shadow: rgb(72 98 124 / 0%) 0 0 0 1px inset, rgb(64 79 92) 0 0 0 4px inset;
+}
+
+
+/* Scrollbar hover */
+
+::-webkit-scrollbar-thumb:hover {
+  box-shadow: rgb(0 0 0 / 0%) 0 0 0 0 inset, rgb(88 106 122) 0 0 0 4px inset;
+}
+
+
+/* Fix secondary header active color */
+
+.jZPsWO > div > a:active, .jZPsWO > div > div:active, .jZPsWO > div > a.active, .jZPsWO > div > div.active {
+  box-shadow: rgb(8, 145, 178) 0px -3px 0px -1px inset !important;
+}
+
+
+/* Server IP height */
+
+p.ServerRow___StyledP3-sc-1ibsw91-9.IQTcj {
+  line-height: 3rem;
+}
+
+
+/* Resource icon centering */
+
+.svg-inline--fa {
+  height: auto !important;
+}
+
+
+/* Server list shape */
+
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fRwFrz.DashboardContainer___StyledServerRow-sc-1topkxf-2, a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.kVijQB.DashboardContainer___StyledServerRow-sc-1topkxf-2, a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe.DashboardContainer___StyledServerRow-sc-1topkxf-2 {
+  padding-top: var(--server-list-padding);
+  padding-bottom: var(--server-list-padding);
+  border-radius: var(--server-list-radii);
+}
+
+
+/* Server list online color */
+
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fRwFrz.DashboardContainer___StyledServerRow-sc-1topkxf-2 {
+  background: #1f2033;
+}
+
+
+/* Server list online status */
+
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe.DashboardContainer___StyledServerRow-sc-1topkxf-2 .status-bar {
+  background: #2f994c;
+  opacity: 1;
+}
+
+
+/* Server list starting color */
+
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.kVijQB.DashboardContainer___StyledServerRow-sc-1topkxf-2 {
+  background: #1e1f2e;
+}
+
+
+/* Server list starting status */
+
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.kVijQB.DashboardContainer___StyledServerRow-sc-1topkxf-2 .status-bar {
+  background: repeating-linear-gradient(45deg, #e0921d, #e0921d 10px, #bf780d 10px, #bf780d 20px);
+  opacity: 1;
+}
+
+
+/* Server list offline color */
+
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe.DashboardContainer___StyledServerRow-sc-1topkxf-2 {
+  background: #331f2e;
+}
+
+
+/* Server list offline status */
+
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe.DashboardContainer___StyledServerRow-sc-1topkxf-2 .status-bar {
+  background: #c23243;
+  opacity: 1;
+}
+
+
+/* Stats */
+
+div.style-module_2Vp6MaXq, div.style-module_2XbmHEcn {
+  background-color: #1f212f !important;
+  border-style: none;
+  padding: 0.8rem;
+}
+
+
+/* Console input */
+
+input.style-module_3TDo--Tn {
+  border-bottom-left-radius: var(--border-radii) !important;
+  border-bottom-right-radius: var(--border-radii) !important;
+}
+
+
+/* Console output radius */
+
+div.style-module_1n_DiqmT.style-module_1AMtO9lt {
+  border-top-left-radius: var(--border-radii);
+  border-top-right-radius: var(--border-radii);
+}
+
+
+/* Fix mobile weird sizing */
+
+div.style-module_1n_DiqmT.style-module_1AMtO9lt, div.relative.style-module_1AMtO9lt {
+  width: unset;
+  margin-left: unset;
+}
+
+div.SpinnerOverlay___StyledDiv-sc-ee99c1-0.beTCbH {
+  border-radius: var(--border-radii);
+}
+
+
+/* Hide mobile info bars */
+
+div.style-module_OFB5PMuf.bg-gray-700 {
+  background-color: unset;
+}
+
+
+/* Border radii */
+
+div.style-module_2Vp6MaXq, div.style-module_2XbmHEcn, div.style-module_1DtraXMW, button.style-module_4LBM1DKx /* , .style-module_3kBDV_wo, .frOAYd, .iTERJN, .kKFWRA, .text-gray-100, .kwzDJT, .eANsNt */ {
+  border-radius: var(--border-radii) !important;
+}

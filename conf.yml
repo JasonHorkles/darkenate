@@ -1,0 +1,30 @@
+# Thank you for developing with Blueprint.
+# For documentation about conf.yml, refer to ptero.shop/dev/conf.
+
+info:
+  name: "Darkenate"
+  identifier: "darkenate"
+  description: "A dark theme inspired by bloom.host's colors and the Recolor theme"
+  flags: ""
+  version: "1.0.0"
+  target: "alpha-3ZX"
+  author: "JasonHorkles"
+  icon: ""
+  website: "https://github.com/jasonhorkles/darkenate"
+
+admin:
+  view: "admin/view.blade.php"
+  controller: ""
+  css: ""
+  wrapper: ""
+
+dashboard:
+  wrapper: ""
+  css: "client/client.style.css"
+
+data:
+  directory: ""
+  public: "public"
+
+database:
+  migrations: ""
