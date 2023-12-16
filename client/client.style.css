@@ -1,18 +1,23 @@
 :root {
+  --background-color: #11111c;
   --border-radii: 10px;
   --server-list-radii: 8px;
   --server-list-padding: 1.25rem;
 }
 
+
 /* Turn off image dragging */
+
 img {
   -webkit-user-drag: none;
 }
 
+
 /* Background */
 
-body.bg-neutral-800, body.bg-neutral-900 {
-  background: #11111c;
+body.bg-neutral-800,
+body.bg-neutral-900 {
+  background: var(--background-color);
 }
 
 
@@ -43,6 +48,14 @@ label.Label-sc-g780ms-0.dqkKHi {
 
 /* Scrollbar */
 
+::-webkit-scrollbar {
+  background: var(--background-color) !important;
+}
+
+.xterm-viewport::-webkit-scrollbar {
+  background: #131a20 !important;
+}
+
 ::-webkit-scrollbar-thumb {
   border-width: 0px 0.3rem;
   box-shadow: rgb(72 98 124 / 0%) 0 0 0 1px inset, rgb(64 79 92) 0 0 0 4px inset;
@@ -58,7 +71,10 @@ label.Label-sc-g780ms-0.dqkKHi {
 
 /* Fix secondary header active color */
 
-.jZPsWO > div > a:active, .jZPsWO > div > div:active, .jZPsWO > div > a.active, .jZPsWO > div > div.active {
+.jZPsWO>div>a:active,
+.jZPsWO>div>div:active,
+.jZPsWO>div>a.active,
+.jZPsWO>div>div.active {
   box-shadow: rgb(8, 145, 178) 0px -3px 0px -1px inset !important;
 }
 
@@ -79,7 +95,9 @@ p.ServerRow___StyledP3-sc-1ibsw91-9.IQTcj {
 
 /* Server list shape */
 
-a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fRwFrz.DashboardContainer___StyledServerRow-sc-1topkxf-2, a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.kVijQB.DashboardContainer___StyledServerRow-sc-1topkxf-2, a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe.DashboardContainer___StyledServerRow-sc-1topkxf-2 {
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fRwFrz.DashboardContainer___StyledServerRow-sc-1topkxf-2,
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.kVijQB.DashboardContainer___StyledServerRow-sc-1topkxf-2,
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe.DashboardContainer___StyledServerRow-sc-1topkxf-2 {
   padding-top: var(--server-list-padding);
   padding-bottom: var(--server-list-padding);
   border-radius: var(--server-list-radii);
@@ -133,7 +151,8 @@ a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwb
 
 /* Stats */
 
-div.style-module_2Vp6MaXq, div.style-module_2XbmHEcn {
+div.style-module_2Vp6MaXq,
+div.style-module_2XbmHEcn {
   background-color: #1f212f !important;
   border-style: none;
   padding: 0.8rem;
@@ -158,7 +177,8 @@ div.style-module_1n_DiqmT.style-module_1AMtO9lt {
 
 /* Fix mobile weird sizing */
 
-div.style-module_1n_DiqmT.style-module_1AMtO9lt, div.relative.style-module_1AMtO9lt {
+div.style-module_1n_DiqmT.style-module_1AMtO9lt,
+div.relative.style-module_1AMtO9lt {
   width: unset;
   margin-left: unset;
 }
@@ -177,6 +197,9 @@ div.style-module_OFB5PMuf.bg-gray-700 {
 
 /* Border radii */
 
-div.style-module_2Vp6MaXq, div.style-module_2XbmHEcn, div.style-module_1DtraXMW, button.style-module_4LBM1DKx /* , .style-module_3kBDV_wo, .frOAYd, .iTERJN, .kKFWRA, .text-gray-100, .kwzDJT, .eANsNt */ {
+div.style-module_2Vp6MaXq,
+div.style-module_2XbmHEcn,
+div.style-module_1DtraXMW,
+button.style-module_4LBM1DKx {
   border-radius: var(--border-radii) !important;
 }
