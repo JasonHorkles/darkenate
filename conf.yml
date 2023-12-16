@@ -10,7 +10,7 @@ info:
   target: "alpha-3ZX"
   author: "JasonHorkles"
   icon: ""
-  website: "https://github.com/jasonhorkles/darkenate"
+  website: "https://github.com/JasonHorkles/darkenate"
 
 admin:
   view: "admin/view.blade.php"
