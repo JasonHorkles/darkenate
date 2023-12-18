@@ -190,7 +190,9 @@ div.SpinnerOverlay___StyledDiv-sc-ee99c1-0.beTCbH {
 
 /* Hide mobile info bars */
 
-div.style-module_OFB5PMuf.bg-gray-700 {
+div.style-module_OFB5PMuf.bg-gray-700,
+div.style-module_OFB5PMuf.bg-yellow-500,
+div.style-module_OFB5PMuf.bg-red-500 {
   background-color: unset;
 }
 
