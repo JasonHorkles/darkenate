@@ -179,8 +179,8 @@ div.style-module_1n_DiqmT.style-module_1AMtO9lt {
 
 div.style-module_1n_DiqmT.style-module_1AMtO9lt,
 div.relative.style-module_1AMtO9lt {
-  width: unset;
-  margin-left: unset;
+  width: initial;
+  margin-left: initial;
 }
 
 div.SpinnerOverlay___StyledDiv-sc-ee99c1-0.beTCbH {
@@ -193,7 +193,7 @@ div.SpinnerOverlay___StyledDiv-sc-ee99c1-0.beTCbH {
 div.style-module_OFB5PMuf.bg-gray-700,
 div.style-module_OFB5PMuf.bg-yellow-500,
 div.style-module_OFB5PMuf.bg-red-500 {
-  background-color: unset;
+  background-color: initial;
 }
 
 
