@@ -24,7 +24,7 @@ dashboard:
 
 data:
   directory: ""
-  public: "public"
+  public: ""
 
 database:
   migrations: ""
