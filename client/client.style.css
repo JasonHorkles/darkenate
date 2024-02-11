@@ -1,5 +1,7 @@
 :root {
   --background-color: #11111c;
+  --list-item-color: #2b2c3d;
+  --list-item-hover-color: #484957;
   --border-radii: 10px;
   --server-list-radii: 8px;
   --server-list-padding: 1.25rem;
@@ -204,4 +206,44 @@ div.style-module_2XbmHEcn,
 div.style-module_1DtraXMW,
 button.style-module_4LBM1DKx {
   border-radius: var(--border-radii) !important;
+}
+
+
+/* Files, Schedules, Users, Backups, Network, Startup, Settings, & Activity backgrounds/borders */
+
+div.style-module_1WqkLT9X,
+a.GreyRowBox-sc-1xo9c6v-0.ScheduleContainer___StyledGreyRowBox-sc-dlqnx9-2.dyLna-D {
+  background-color: var(--list-item-color);
+  border-radius: var(--border-radii);
+}
+
+div.style-module_1WqkLT9X:hover {
+  background-color: var(--list-item-hover-color);
+}
+
+
+/* Databases */
+
+/* todo, will add databases if someone is able to provide a demo server with access to one */
+
+
+/* Schedules */
+
+div.bNXcqn {
+  border-bottom-width: 0;
+  border-radius: var(--border-radii);
+}
+
+div.bWXUsX {
+  background-color: var(--list-item-hover-color);
+  border-radius: var(--border-radii);
+}
+
+div.bNaPPt {
+  background-color: var(--list-item-color);
+  border-radius: var(--border-radii);
+}
+
+div.ipThkt {
+  border-bottom-width: 0;
 }
