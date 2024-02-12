@@ -210,7 +210,7 @@ button.style-module_4LBM1DKx {
 }
 
 
-/* Files, Schedules, Users, Backups, Network, Startup, Settings, & Activity backgrounds/borders */
+/* Files, Databases, Schedules, Users, Backups, Network, Startup, Settings, & Activity backgrounds/borders */
 
 div.style-module_1WqkLT9X {
   border-radius: var(--server-list-radii);
@@ -246,7 +246,13 @@ button.fzeXUL {
 
 /* Databases */
 
-/* todo, will add databases if someone is able to provide a demo server with access to one */
+button.iWlqbo, button.jUQpfY {
+  border-radius: var(--border-radii);
+}
+
+button.dgnzah {
+  padding-top: 0.7rem;
+}
 
 
 /* Schedules */

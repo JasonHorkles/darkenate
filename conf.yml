@@ -6,7 +6,7 @@ info:
   identifier: "darkenate"
   description: "A dark theme inspired by bloom.host's colors and the Recolor theme"
   flags: ""
-  version: "v1.1.0"
+  version: "v1.1.1"
   target: "alpha-3ZX"
   author: "JasonHorkles"
   icon: "assets/icon.jpg"
