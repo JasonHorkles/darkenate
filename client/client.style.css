@@ -246,7 +246,8 @@ button.fzeXUL {
 
 /* Databases */
 
-button.iWlqbo, button.jUQpfY {
+button.iWlqbo,
+button.jUQpfY {
   border-radius: var(--border-radii);
   text-transform: none;
 }
