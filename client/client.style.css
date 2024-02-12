@@ -380,8 +380,28 @@ input.jqTCDz:not([type="checkbox"]):not([type="radio"]) {
 
 /* Activity */
 
-div.bg-gray-700,
+div.py-4,
 div.text-gray-200,
-a.style-module_Yp7-2Fw- {
+a.style-module_Yp7-2Fw-,
+div.style-module_1RnhIT0w,
+pre.rounded {
   border-radius: var(--border-radii);
+}
+
+div.py-4,
+div.style-module_1RnhIT0w {
+  background-color: var(--item-color);
+}
+
+div.border-gray-800 {
+  border-width: 0;
+}
+
+div.py-4 {
+  margin: 0.5rem 0;
+}
+
+div.bg-gray-700:has(> div.py-4),
+div.py-3 {
+  background-color: transparent;
 }
