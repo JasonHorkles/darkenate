@@ -98,9 +98,9 @@ p.ServerRow___StyledP3-sc-1ibsw91-9.IQTcj {
 
 /* Server list shape */
 
-a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fRwFrz.DashboardContainer___StyledServerRow-sc-1topkxf-2,
-a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.kVijQB.DashboardContainer___StyledServerRow-sc-1topkxf-2,
-a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe.DashboardContainer___StyledServerRow-sc-1topkxf-2 {
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fRwFrz,
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.kVijQB,
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe {
   padding-top: var(--server-list-padding);
   padding-bottom: var(--server-list-padding);
   border-radius: var(--server-list-radii);
@@ -109,14 +109,14 @@ a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwb
 
 /* Server list online color */
 
-a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fRwFrz.DashboardContainer___StyledServerRow-sc-1topkxf-2 {
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fRwFrz {
   background: #1f2033;
 }
 
 
 /* Server list online status */
 
-a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe.DashboardContainer___StyledServerRow-sc-1topkxf-2 .status-bar {
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe .status-bar {
   background: #2f994c;
   opacity: 1;
 }
@@ -124,14 +124,14 @@ a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwb
 
 /* Server list starting color */
 
-a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.kVijQB.DashboardContainer___StyledServerRow-sc-1topkxf-2 {
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.kVijQB {
   background: #1e1f2e;
 }
 
 
 /* Server list starting status */
 
-a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.kVijQB.DashboardContainer___StyledServerRow-sc-1topkxf-2 .status-bar {
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.kVijQB .status-bar {
   background: repeating-linear-gradient(45deg, #e0921d, #e0921d 10px, #bf780d 10px, #bf780d 20px);
   opacity: 1;
 }
@@ -139,15 +139,15 @@ a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.kVi
 
 /* Server list offline color */
 
-a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe.DashboardContainer___StyledServerRow-sc-1topkxf-2 {
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe {
   background: #331f2e;
 }
 
 
 /* Server list offline status */
 
-a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe.DashboardContainer___StyledServerRow-sc-1topkxf-2 .status-bar {
-  background: #c23243;
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe .status-bar {
+  background: #c23243 !important;
   opacity: 1;
 }
 
