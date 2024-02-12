@@ -248,6 +248,7 @@ button.fzeXUL {
 
 button.iWlqbo, button.jUQpfY {
   border-radius: var(--border-radii);
+  text-transform: none;
 }
 
 button.dgnzah {
