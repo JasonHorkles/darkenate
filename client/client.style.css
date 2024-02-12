@@ -323,6 +323,7 @@ button.kztmyO,
 button.iNKfxp,
 label.icxFlO {
   border-radius: var(--border-radii);
+  text-transform: none;
 }
 
 button.cDkCmT {
