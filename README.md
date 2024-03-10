@@ -1,6 +1,6 @@
 ### You may either download the source code and build the blueprint itself, or download the pre-compiled file [here](https://github.com/JasonHorkles/darkenate/releases).
 
-### If you encounter any issues, please create a [GitHub issue](https://github.com/JasonHorkles/darkenate/issues) rather than messaging me on Discord.
+### If you encounter any bugs or have a suggestion, please create a [GitHub issue](https://github.com/JasonHorkles/darkenate/issues) rather than messaging me on Discord.
 
 ---
 
