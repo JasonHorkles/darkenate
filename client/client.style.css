@@ -30,6 +30,12 @@ div.w-full.bg-neutral-900 {
 }
 
 
+/* Disable word wrapping */
+a.font-header {
+  white-space: nowrap;
+}
+
+
 /* Secondary header */
 
 div.SubNavigation-sc-lfuaoi-0.jZPsWO {
