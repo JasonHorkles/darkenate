@@ -58,7 +58,7 @@ label.Label-sc-g780ms-0.dqkKHi {
 
 ::-webkit-scrollbar {
   background: var(--background-color) !important;
-  border-radius: var(--border-radii);
+  border-radius: 0;
 }
 
 .xterm-viewport::-webkit-scrollbar {
