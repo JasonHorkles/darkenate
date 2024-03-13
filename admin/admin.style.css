@@ -1,0 +1,92 @@
+:root {
+  --background-color: #11111c;
+  --item-color: #1f212f;
+  --item-secondary-color: #2b2c39;
+  --danger-zone-color: #331f2e;
+  --border-radii: 10px;
+}
+
+
+/* Turn off image dragging */
+
+img {
+  -webkit-user-drag: none;
+}
+
+
+/* Background */
+
+div.content-wrapper,
+body {
+  background-color: var(--background-color);
+}
+
+
+/* Header / footer */
+
+nav.navbar.navbar-static-top,
+a.logo {
+  background-color: #1f2129 !important;
+}
+
+
+/* Footer */
+footer.main-footer {
+  border-width: 0px;
+  background-color: var(--background-color);
+}
+
+
+/* Sidebar */
+
+aside.main-sidebar {
+  background-color: #1f2129 !important;
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  background: var(--background-color) !important;
+  width: 16px;
+  height: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-width: 0px 4px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0);
+  border-image: initial;
+  border-radius: 9px / 4px;
+  box-shadow: rgb(178 199 219) 0px 0px 0px 1px inset, rgb(63, 77, 90) 0px 0px 0px 4px inset;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+::-webkit-scrollbar-track-piece {
+  margin: 4px 0px;
+}
+
+
+/* Border radii */
+
+div.box,
+div.box-header.with-border,
+button.btn {
+  border-radius: var(--border-radii) !important;
+}
+
+
+/* Remove box colors */
+
+div.box-header.with-border {
+  background-color: transparent;
+  border-bottom: none !important;
+}
+
+div.box {
+  border-top-color: transparent !important;
+  background: var(--item-secondary-color);
+}

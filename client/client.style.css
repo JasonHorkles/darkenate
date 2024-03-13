@@ -59,23 +59,10 @@ label.Label-sc-g780ms-0.dqkKHi {
 
 ::-webkit-scrollbar {
   background: var(--background-color) !important;
-  border-radius: 0;
 }
 
 .xterm-viewport::-webkit-scrollbar {
   background: #131a20 !important;
-}
-
-::-webkit-scrollbar-thumb {
-  border-width: 0px 0.3rem;
-  box-shadow: rgb(72 98 124 / 0%) 0 0 0 1px inset, rgb(64 79 92) 0 0 0 4px inset;
-}
-
-
-/* Scrollbar hover */
-
-::-webkit-scrollbar-thumb:hover {
-  box-shadow: rgb(0 0 0 / 0%) 0 0 0 0 inset, rgb(88 106 122) 0 0 0 4px inset;
 }
 
 
