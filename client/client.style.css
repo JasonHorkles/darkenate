@@ -89,10 +89,11 @@ label.Label-sc-g780ms-0.dqkKHi {
 }
 
 
-/* Server IP height */
+/* Server IP height & spacing */
 
 p.ServerRow___StyledP3-sc-1ibsw91-9.IQTcj {
   line-height: 3rem;
+  white-space: nowrap;
 }
 
 
