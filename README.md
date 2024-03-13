@@ -4,6 +4,10 @@
 
 ---
 
+If you enjoy this extension and you make money from running a host, please consider donating using the links to the side ❤️ ->
+
+---
+
 ![image](https://github.com/JasonHorkles/darkenate/assets/51760372/155ab519-701b-4b3c-ac1e-62906f966fb8)
 ![image](https://github.com/JasonHorkles/darkenate/assets/51760372/256c6990-3e39-4497-b78e-5eee23d1685f)
 ![image](https://github.com/JasonHorkles/darkenate/assets/51760372/25525486-cc41-4fe5-a662-c37afb2e9421)
